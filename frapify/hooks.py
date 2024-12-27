@@ -14,7 +14,7 @@ app_license = "mit"
 add_to_apps_screen = [
     {
         "name": "frapify",
-        "logo": "/assets/frapify/img/nori.png",
+        "logo": "/assets/frapify/img/nori.svg",
         "title": "Nori",
         "route": "/app",
         "has_permission": "frapify.api.permission.has_app_permission",
