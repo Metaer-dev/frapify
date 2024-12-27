@@ -2,7 +2,7 @@
 
 frappe.provide('frappe.help');
 $(document).ready(function() {
-    const allowedRoles = ['Administrator'];
+    const allowedRoles = [];
     const hasAllowedRole = allowedRoles.some(role => frappe.user.has_role(role));    
     if (!hasAllowedRole){
         $('button[onclick="return frappe.ui.toolbar.show_about()"]').remove();
